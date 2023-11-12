@@ -1,0 +1,454 @@
+ERROR - 2023-11-03 00:32:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-03 00:36:43 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-03 00:47:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-03 00:47:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-03 01:02:30 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-03 01:02:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-03 01:03:17 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-03 01:03:17 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-03 01:53:35 --> mysqli_sql_exception: Cannot add foreign key constraint in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `w...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `w...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `w...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `w...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-000606_FinanceDb.php(33): CodeIgniter\Database\Forge->createTable('wallet')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\FinanceDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 01:54:15 --> mysqli_sql_exception: Cannot add foreign key constraint in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `w...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `w...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `w...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `w...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-000606_FinanceDb.php(32): CodeIgniter\Database\Forge->createTable('wallet')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\FinanceDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 01:54:55 --> mysqli_sql_exception: Cannot add foreign key constraint in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `w...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `w...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `w...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `w...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-000606_FinanceDb.php(32): CodeIgniter\Database\Forge->createTable('wallet')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\FinanceDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 02:00:31 --> mysqli_sql_exception: Cannot add foreign key constraint in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `w...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `w...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `w...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `w...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-000606_FinanceDb.php(32): CodeIgniter\Database\Forge->createTable('wallet')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\FinanceDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 02:01:14 --> mysqli_sql_exception: Cannot add foreign key constraint in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `w...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `w...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `w...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `w...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-000606_FinanceDb.php(32): CodeIgniter\Database\Forge->createTable('wallet')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\FinanceDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 02:05:18 --> mysqli_sql_exception: Cannot add foreign key constraint in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `w...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `w...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `w...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `w...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-000606_FinanceDb.php(32): CodeIgniter\Database\Forge->createTable('wallet')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\FinanceDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 02:05:36 --> mysqli_sql_exception: Cannot add foreign key constraint in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `w...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `w...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `w...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `w...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-000606_FinanceDb.php(32): CodeIgniter\Database\Forge->createTable('wallet')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\FinanceDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 02:06:08 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `w...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `w...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `w...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `w...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-000606_FinanceDb.php(29): CodeIgniter\Database\Forge->createTable('wallet')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\FinanceDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 02:13:00 --> mysqli_sql_exception: Cannot add foreign key constraint in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `w...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `w...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `w...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `w...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-021121_WalletDb.php(33): CodeIgniter\Database\Forge->createTable('wallet')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\WalletDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 02:13:21 --> mysqli_sql_exception: Cannot add foreign key constraint in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `w...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `w...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `w...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `w...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-021121_WalletDb.php(33): CodeIgniter\Database\Forge->createTable('wallet')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\WalletDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 02:24:51 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `w...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `w...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `w...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `w...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-000606_FinanceDb.php(29): CodeIgniter\Database\Forge->createTable('wallet')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\FinanceDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 02:26:17 --> mysqli_sql_exception: Cannot add foreign key constraint in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `w...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `w...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `w...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `w...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-021121_WalletDb.php(33): CodeIgniter\Database\Forge->createTable('wallet')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\WalletDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 02:27:10 --> mysqli_sql_exception: Cannot add foreign key constraint in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `w...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `w...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `w...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `w...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-021121_WalletDb.php(33): CodeIgniter\Database\Forge->createTable('wallet')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\WalletDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 03:06:00 --> mysqli_sql_exception: Cannot add foreign key constraint in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `i...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `i...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `i...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `i...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-021121_WalletDb.php(76): CodeIgniter\Database\Forge->createTable('income')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\IncomeDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-03 03:07:20 --> mysqli_sql_exception: Table 'income' already exists in /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/coursework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `i...', 0)
+#1 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `i...')
+#2 /Applications/MAMP/htdocs/coursework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `i...')
+#3 /Applications/MAMP/htdocs/coursework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `i...')
+#4 /Applications/MAMP/htdocs/coursework/app/Database/Migrations/2023-11-03-021121_WalletDb.php(76): CodeIgniter\Database\Forge->createTable('income')
+#5 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(873): App\Database\Migrations\WalletDb->up()
+#6 /Applications/MAMP/htdocs/coursework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/MAMP/htdocs/coursework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/MAMP/htdocs/coursework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/MAMP/htdocs/coursework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/MAMP/htdocs/coursework/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-11-03 04:25:51 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH/Views/Home/index.php on line 14.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Home/index.php', [], true)
+ 3 APPPATH/Controllers/Home.php(12): view('Home/index.php', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/MAMP/htdocs/coursework/public/index.php')
+CRITICAL - 2023-11-03 04:30:47 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH/Views/Home/index.php on line 14.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('Home/index.php', [], true)
+ 3 APPPATH/Controllers/Home.php(12): view('Home/index.php', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/MAMP/htdocs/coursework/public/index.php')
